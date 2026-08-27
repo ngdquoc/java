@@ -1,10 +1,9 @@
-package day28;
 
 import java.net.URI;
 import java.net.http.HttpRequest;
 import java.time.Duration;
 
-public class Main {
+public class Day28 {
     public static void main(String[] args) {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("https://example.com/api/lessons/28"))

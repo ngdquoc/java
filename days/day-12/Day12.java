@@ -1,6 +1,5 @@
-package day12;
 
-public class Main {
+public class Day12 {
     public static void main(String[] args) {
         Notifier[] notifiers = {new EmailNotifier(), new ConsoleNotifier()};
         for (Notifier notifier : notifiers) notifier.send("Chào mừng!");

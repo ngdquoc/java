@@ -16,15 +16,21 @@ int age = 20;
 double height = 1.72;
 boolean learningJava = true;
 ```
+python
+name = "An"
+age = 20
+height = 1.72
+learning_java = True
+```
 
 Cấu trúc khai báo:
 
-```text
+```
 kiểu_dữ_liệu tên_biến = giá_trị;
+
 ```
 
 Java kiểm tra kiểu dữ liệu khi biên dịch. Ví dụ sau không hợp lệ:
-
 ```java
 int age = "hai mươi";
 ```
@@ -40,9 +46,10 @@ int age = "hai mươi";
 | `char` | `'A'` | Một ký tự |
 | `String` | `"Java"` | Chuỗi ký tự |
 
+---------------------------------------------------------------------------------------------
 `String` viết hoa chữ `S` vì nó là một class, không phải kiểu nguyên thủy.
-
 ## 3. Hằng số với `final`
+---------------------------------------------------------------------------------------------
 
 ```java
 final double PI = 3.14159;
@@ -52,7 +59,7 @@ Sau khi được gán, biến `PI` không thể nhận giá trị khác.
 
 ## Chạy ví dụ
 
-Mở `Main.java` trong VS Code và nhấn **Run** phía trên phương thức `main`.
+Mở `Day02.java` trong VS Code và nhấn **Run** phía trên phương thức `main`.
 Kết quả xuất hiện trong Terminal.
 
 ## Bài tập
@@ -78,6 +85,10 @@ double radius = 5;
 ```
 
 Tính và in diện tích hình tròn theo công thức `PI * radius * radius`.
+
+final double bi=3.14;
+double ra=12;
+double s=bi*bi*ra;
 
 ### Bài 3
 

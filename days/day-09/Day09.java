@@ -1,6 +1,5 @@
-package day09;
 
-public class Main {
+public class Day09 {
     public static void main(String[] args) {
         BankAccount account = new BankAccount("An", 500_000);
         account.deposit(200_000);

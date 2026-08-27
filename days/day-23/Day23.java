@@ -1,9 +1,8 @@
-package day23;
 
 import java.util.List;
 import java.util.Optional;
 
-public class Main {
+public class Day23 {
     public static void main(String[] args) {
         Optional<String> found = List.of("An", "Bình", "Chi").stream()
                 .filter(name -> name.equalsIgnoreCase("bình"))

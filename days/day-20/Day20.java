@@ -1,9 +1,8 @@
-package day20;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class Main {
+public class Day20 {
     public static void main(String[] args) {
         LocalDate start = LocalDate.of(2026, 7, 1);
         LocalDate end = start.plusDays(30);

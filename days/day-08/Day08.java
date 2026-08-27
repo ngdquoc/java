@@ -1,6 +1,5 @@
-package day08;
 
-public class Main {
+public class Day08 {
     public static void main(String[] args) {
         String raw = "  Hoc Java moi ngay  ";
         String clean = raw.trim().replaceAll("\\s+", " ");

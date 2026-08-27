@@ -1,10 +1,8 @@
-package day02;
-
-public class Main {
+public class Day02 {
     public static void main(String[] args) {
-        String name = "An";
-        int age = 20;
-        double height = 1.72;
+        String name = "Tom";
+        int age = 18;
+        double height = 180;     
         boolean learningJava = true;
         char level = 'A';
 
@@ -20,5 +18,19 @@ public class Main {
         System.out.println("Cấp độ: " + level);
         System.out.println("Khóa học: " + courseName);
         System.out.printf("Diện tích hình tròn: %.2f%n", area);
-    }
+        int number = 10;
+number = 20;
+
+final int fixedNumber = 10;
+// fixedNumber = 20; // This would cause a compile-time error
+System.out.println("Fixed Num=10: " + number);
+
 }
+}
+// Tên: An Str
+// Tuổi: 20 int
+// Chiều cao: 1,72 m double
+// Đang học Java: true boolean
+// Cấp độ: A char
+// Khóa học: 30 Ngày Tự Học Java String
+// Diện tích hình tròn: 78,54 double

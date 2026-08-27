@@ -1,9 +1,8 @@
-package day30;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class Day30 {
     public static void main(String[] args) {
         TodoService todo = new TodoService();
         int firstId = todo.add("Hoàn thành 30 ngày Java");

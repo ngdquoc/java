@@ -1,9 +1,8 @@
-package day29;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class Day29 {
     public static void main(String[] args) {
         TaskRepository repository = new InMemoryTaskRepository();
         repository.save(new Task(1, "Thiết kế Todo CLI", false));

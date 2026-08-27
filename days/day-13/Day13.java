@@ -1,6 +1,5 @@
-package day13;
 
-public class Main {
+public class Day13 {
     public static void main(String[] args) {
         Product product = new Product("Java Book", 150_000);
         System.out.println(new Order(product, OrderStatus.PAID));

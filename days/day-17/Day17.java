@@ -1,6 +1,5 @@
-package day17;
 
-public class Main {
+public class Day17 {
     public static void main(String[] args) {
         Box<String> message = new Box<>("Học generic");
         Box<Integer> score = new Box<>(10);

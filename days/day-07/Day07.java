@@ -1,8 +1,7 @@
-package day07;
 
 import java.util.Arrays;
 
-public class Main {
+public class Day07 {
     public static void main(String[] args) {
         int[] scores = {8, 6, 9, 10, 7};
         int total = 0;

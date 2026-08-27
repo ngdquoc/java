@@ -1,6 +1,5 @@
-package day24;
 
-public class Main {
+public class Day24 {
     public static void main(String[] args) {
         assert Calculator.add(2, 3) == 5;
         assert Calculator.isEven(0);

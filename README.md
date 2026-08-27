@@ -14,7 +14,7 @@ Bạn cần:
 Mở thư mục repo trong VS Code, sau đó:
 
 1. Mở `days/day-01/README.md` để đọc bài.
-2. Mở `days/day-01/Main.java`.
+2. Mở `days/day-01/Day01.java`.
 3. Nhấn chữ **Run** phía trên phương thức `main`, hoặc nút tam giác **▶**.
 4. Xem kết quả trong cửa sổ Terminal.
 
@@ -57,6 +57,6 @@ Mở thư mục repo trong VS Code, sau đó:
 
 1. Đọc `days/day-XX/README.md`.
 2. Đoán kết quả trước khi chạy.
-3. Mở `Main.java` và nhấn **Run**.
+3. Mở file `DayXX.java` tương ứng và nhấn **Run**.
 4. Tự viết lại ví dụ.
 5. Hoàn thành bài tập.

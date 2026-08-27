@@ -1,6 +1,5 @@
-package day04;
 
-public class Main {
+public class Day04 {
     public static void main(String[] args) {
         int score = 82;
         String rank;

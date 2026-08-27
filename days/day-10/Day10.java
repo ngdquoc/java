@@ -1,6 +1,5 @@
-package day10;
 
-public class Main {
+public class Day10 {
     public static void main(String[] args) {
         Account account = new Account(1_000_000);
         account.withdraw(250_000);

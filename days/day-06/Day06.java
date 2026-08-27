@@ -1,6 +1,5 @@
-package day06;
 
-public class Main {
+public class Day06 {
     public static void main(String[] args) {
         System.out.println("5! = " + factorial(5));
         System.out.println("7 là số nguyên tố: " + isPrime(7));

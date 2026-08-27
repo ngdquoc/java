@@ -1,13 +1,12 @@
-package day25;
 
 import java.util.List;
 
-public class Main {
+public class Day25 {
     private static final double PASSING_SCORE = 5.0;
 
     public static void main(String[] args) {
         long passed = List.of(4.5, 5.0, 7.5, 9.0).stream()
-                .filter(Main::isPassing)
+                .filter(Day25::isPassing)
                 .count();
         System.out.println("Số người đạt: " + passed);
     }

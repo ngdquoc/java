@@ -1,6 +1,5 @@
-package day14;
 
-public class Main {
+public class Day14 {
     public static void main(String[] args) {
         for (String input : new String[]{"25", "hai mươi"}) {
             try {

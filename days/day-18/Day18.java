@@ -1,10 +1,9 @@
-package day18;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class Main {
+public class Day18 {
     public static void main(String[] args) {
         List<Student> students = new ArrayList<>(List.of(
                 new Student("Bình", 8.5),

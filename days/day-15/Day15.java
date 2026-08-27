@@ -1,9 +1,8 @@
-package day15;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class Day15 {
     public static void main(String[] args) {
         List<String> tasks = new ArrayList<>();
         tasks.add("Đọc bài 15");

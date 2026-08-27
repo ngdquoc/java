@@ -8,9 +8,13 @@
 
 ## Chạy ví dụ
 
-Mở `Main.java` trong VS Code và nhấn **Run** phía trên phương thức `main`.
+Mở `Day01.java` trong VS Code và nhấn **Run** phía trên phương thức `main`.
 Kết quả xuất hiện trong Terminal.
 
 ## Bài tập
 
 Sửa chương trình để in tên, tuổi và mục tiêu học Java trên ba dòng.
+
+
+javac .java
+java name

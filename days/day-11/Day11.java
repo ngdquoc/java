@@ -1,6 +1,5 @@
-package day11;
 
-public class Main {
+public class Day11 {
     public static void main(String[] args) {
         Animal animal = new Dog("Milo");
         animal.speak();

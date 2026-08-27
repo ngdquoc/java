@@ -1,10 +1,11 @@
-package day01;
-
-public class Main {
+public class Day01 {
     public static void main(String[] args) {
         System.out.println("Xin chào Java!");
         System.out.println("Hôm nay tôi bắt đầu hành trình 30 ngày.");
-        System.out.println("Hom nay toi gap mot ban indian kha nice ");
+        System.out.println("Hôm nay tôi gặp một bạn Indian khá nice");
         System.out.println("day1 require 3 line");
     }
 }
+// How to run
+// ngquocswe@macM2s-dQuoc day-01 % javac Day01.java
+// ngquocswe@macM2s-dQuoc day-01 % java Day01
