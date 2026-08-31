@@ -1,7 +1,8 @@
 public class WelcomeThreeMessages { 
     public static void main(String[] args) { 
-        System.out.println( "Programming is fun!" );
-         System.out.println( "Fundamentals First" );
-          System.out.println( "Problem Driven" );
+  //write your code here
+        System.out.println("Welcome to Java!");
+        System.out.println("Welcome to Computer Science!");
+        System.out.println("Programming is fun!");
     }
 }

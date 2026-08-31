@@ -33,3 +33,7 @@ function is out side of class (python) if belong to a class -> call METHOD
 access modifier class Main void Main
               public class Main{ Main class 
               public void main(){ main method
+
+Object is instant of class
+Naming rule 
+![alt text](image-1.png)
