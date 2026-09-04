@@ -28,6 +28,7 @@ public class primitiveType {
        // DataType variableName = new DataType();
 
         Date now = new Date();
+        // In Java, identifiers are the custom names developers use to label variables, classes, methods, or packages
         System.out.println("now");//now
         System.out.println(now); //Mon Aug 31 16:47:59 GMT+07:00 2026
 
@@ -38,6 +39,15 @@ public class primitiveType {
         point1.x = 100;
         System.out.println(point2.x); // 100
 
+  
+    public static void changeNumber(int x) {
+        x = 100; // Thay đổi giá trị của biến x (bản sao)
+    }
+        int a = 5;
+        changeNumber(a);
+        System.out.println(a); // Kết quả vẫn là 5
+// Giải thích: Khi gọi changeNumber(a), Java tạo ra một bản sao giá trị của a (là số 5) và gán vào biến x. Mọi thao tác đổi x = 100 trong hàm chỉ tác động lên bản sao x, biến a ở ngoài không hề ảnh hưởng.
+//Tham trị (Pass-by-Value): Bạn đưa cho hàm một bản sao của lá thư (hoặc bản sao địa chỉ nhà). Nếu hàm xé bản sao đó hay vẽ lên nó, thư gốc không bị làm sao. Nhưng nếu hàm đi theo địa chỉ trên tờ giấy bản sao để vào nhà sửa đồ đạc, thì đồ đạc trong nhà thực sự bị thay đổi.
 
         String name = "John"; // String is a reference type
         name+= " Hopskin";
